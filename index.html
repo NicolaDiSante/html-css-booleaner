@@ -13,10 +13,7 @@
   <!-- Title and Logo -->
 
   <header>
-    
-    <img src="img/pattern.png" alt="Pattern">
-    <span>The Booleaner</span>
-
+    <img id="logo" src="img/logo.svg" alt="logo">   
   </header>
 
   <!-- /Title and Logo -->
@@ -25,23 +22,29 @@
   <!-- Main Content -->
 
   <main>
-    <h1>Internet deve essere al servizio del bene pubblico: il manifesto di Tim Berners Lee</h1>
-    <p>Scritto da The Booleaner</p>
-    <p>il 17/02/2021</p>
-    <img src="img/tim-1.jpg" alt="Tim1">
-    <img src="img/tim-2.jpg" alt="Tim2">
-    <p>1st Photo: John S. and James Knight Foundtation, by Scott</p>
-    <p>2nd Photo: Wikimedia, By Paul Clarke</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nemo sequi saepe quia repudiandae, fugiat earum vel voluptate quaerat praesentium modi, distinctio vitae ut ratione minima facere temporibus qui exercitationem?</p>
 
-    <ul>
-      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nemo sequi saepe quia repudiandae, fugiat earum vel voluptat</li>
-      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nemo sequi saepe quia repudiandae, fugiat earum vel voluptat</li>
-      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nemo sequi saepe quia repudiandae, fugiat earum vel voluptat</li>
+    <div id="title"><strong>Internet deve essere al servizio del bene pubblico: il manifesto di Tim Berners Lee</strong></div>
+    <div class="written"><strong>Scritto da <span id="booleaner">The Booleaner</span><br>il 17/02/2021</strong></div>
+    <br>
+    <img class="picture-tim" src="img/tim-1.jpg" alt="Tim1">
+    <img class="picture-tim" src="img/tim-2.jpg" alt="Tim2">
+    <div class="descrizione-foto">1st Photo: John S. and James Knight Foundtation, by Scott</div>
+    <div class="descrizione-foto">2nd Photo: Wikimedia, By Paul Clarke</div>
+    <p class="text"><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nemo sequi saepe quia repudiandae, <span class="giallo">fugiat earum vel voluptate quaerat praesentium modi,</span> fugiat earum vel voluptate quaerat praesentium modi, distinctio vitae ut ratione minima facere temporibus qui exercitationem?</strong></p>
+
+    <div class="text"> 
+    <ul id="list">
+      <strong>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nemo sequi saepe quia repudiandae, fugiat earum vel voluptat</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nemo sequi saepe quia repudiandae, fugiat earum vel voluptat</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nemo sequi saepe quia repudiandae, fugiat earum vel voluptat</li>
+      </strong>
     </ul>
+  </div>
 
-    <table>
-
+  <div class="text">
+    <strong>
+     <table class="table">
       <thead>
         <tr>
           <td>Lorem Ipsum Dolor</td>
@@ -49,13 +52,14 @@
           <td>Lorem Ipsum Dolor</td>
         </tr>
       </thead>
+
       <tbody>
         <tr>
           <td>Lorem Ipsum Dolor</td>
           <td>Lorem Ipsum Dolor</td>
           <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nemo sequi saepe quia repudiandae, fugiat earum vel voluptate quaerat praesentium modi, distinctio vitae ut ratione minima facere temporibus qui exercitationem?</td>
         </tr>
-        <tr>
+        <tr class="white-table">
           <td>Lorem Ipsum Dolor</td>
           <td>Lorem Ipsum Dolor</td>
           <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nemo sequi saepe quia repudiandae, fugiat earum vel voluptate quaerat praesentium modi, distinctio vitae ut ratione minima facere temporibus qui exercitationem?</td>
@@ -67,9 +71,11 @@
         </tr>
       </tbody>
 
-    </table>
+     </table>
+    </strong>
+  </div>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nemo sequi saepe quia repudiandae, fugiat earum vel voluptate quaerat praesentium modi, distinctio vitae ut ratione minima facere temporibus qui exercitationem?</p>
+    <p class="text"><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nemo sequi saepe quia repudiandae, fugiat earum vel voluptate quaerat praesentium modi,<span class="giallo">fugiat earum vel voluptate quaerat praesentium modi,</span> distinctio vitae ut ratione minima facere temporibus qui exercitationem?</strong></p>
 
   </main>
 
@@ -81,10 +87,15 @@
   <footer>
     
     <h3>Potrebbero interessarti</h3>
-    <span>Lorem ipsum</span>
-    <img src="img/monitor.jpg" alt="Monitor">
-    <span>Lorem Ipsum</span>
-    <img src="img/graph.jpg" alt="Graph">
+    <div class="monitor">
+      <p class="closing-lorem"> Lorem Ipsum</p>
+
+    </div>
+
+    <div class="graph">
+      <p class="closing-lorem"> Lorem Ipsum</p>
+    </div>
+
 
   </footer>
 
